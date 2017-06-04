@@ -1,2 +1,2 @@
-# vue-community-ssr
-A ssr example for vue-community
+# vue-leaflet-ssr
+A ssr example for vue-leaflet-mobile
