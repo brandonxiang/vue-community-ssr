@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Mint from 'mint-ui'
 import { createStore } from './store'
 import { createRouter } from './router'
 import { sync } from 'vuex-router-sync'
@@ -14,6 +15,7 @@ export function createApp () {
   // sync the router with the vuex store.
   // this registers `store.state.route`
   sync(store, router)
+  Vue.use(Mint)
 
   // create the app instance.
   // here we inject the router, store and ssr context to all child components,
